@@ -3,9 +3,9 @@ import bcrypt from 'bcrypt-nodejs';
 import cors from "cors";
 import knex from 'knex';
 
-import register from "./controllers/register.js";
-import signin from "./controllers/signin.js";
-import profile from "./controllers/profile.js";
+import register from "./controllers/register.jsx";
+import signin from "./controllers/signin.jsx";
+import profile from "./controllers/profile.jsx";
 
 const db = knex({
   client: "pg",
